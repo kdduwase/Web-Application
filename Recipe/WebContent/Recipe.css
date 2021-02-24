@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+.header{
+	color:#A4A400;
+	text-decoration: underline;
+	background-color:#F0F0F0;
+	font-family:Lucida Sans Unicode, Helvetica, Arial;
+	font-weight:18pt;
+}
+#top{
+	color:#A4A400;
+	text-decoration: underline;
+	background-color:#F0F0F0;
+	font-family:Lucida Sans Unicode, Helvetica, Arial;
+	font-weight:22pt;
+}
+
+#whole{
+	 margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#par{
+	background-color:yellow;
+}
+#par1{
+	background-color:yellow;
+}
+#par2{
+	background-color:yellow;
+}
+.text{
+	font-size:11px;
+	color:#404040;
+}
+.link{
+	color:#A4A400;
+}
+#align{
+
+  text-align-last: right;
+
+ 
+}
