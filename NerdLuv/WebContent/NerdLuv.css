@@ -94,3 +94,15 @@
 	padding: 7px;
 	outline: none;
 }
+#link{
+	text-decoration:none;
+	color:pink;
+}
+#button{
+	background-color:pink;
+}
+#val{
+	width:40%;
+float:right;
+margin:15px;
+}

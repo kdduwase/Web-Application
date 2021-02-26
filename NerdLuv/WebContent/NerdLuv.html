@@ -4,24 +4,33 @@
 <meta charset="ISO-8859-1">
 <title>NerdLuv</title>
 <link rel="stylesheet" href="NerdLuv.css">
+<meta name="referrer" content= "origin-when-cross-origin">
 </head>
 <body>
 <div class="form-style-2">
-<div class="form-style-2-heading">Provide your information</div>
 <form action="" method="post">
-<label for="field1"><span>Name</span><input type="text" class="input-field" name="field1" value="" /></label>
-<label for="radio"><span>Gender</span> <input type="radio" id="female" name="gender" value="male">
-   <input type="radio" id="male" name="gender" value="female" checked></label>
-<label for="field2"><span>Age</span><input type="text" class="mine" name="field2" value="" maxlength="2" size="6"/></label>
-<label for="field3"><span>Personality type</span><input type="text" class="mine" name="field3" value="" size="6" /><a href="http://www.humanmetrics.com(cgi-win)JTypes2.asp">Don't know your type?</a></label>
-<label for="field4"><span>Favotite OS</span><select name="field4" class="select-field">
+<label for="field1"><span>Name:</span><input type="text" class="input-field" name="field1" value="" /></label>
+<label for="radio"><span>Gender:</span> <input type="radio" id="female" name="gender" value="male">male
+   <input type="radio" id="male" name="gender" value="female" checked>female</label>
+<label for="field2"><span>Age:</span><input type="text" class="mine" name="field2" value="" maxlength="2" size="6"/></label>
+<label for="field3"><span>Personality:</span><input type="text" class="mine" name="field3" value="" size="6" /><a id="link" href="http://www.humanmetrics.com(cgi-win)JTypes2.asp">Don't know your type?</a></label>
+<label for="field4"><span>Favotite OS:</span><select name="field4" class="select-field">
 <option value="Windows">Windows</option>
 <option value="Mac OS X">Mac OS X</option>
 <option value="Linux">Linux</option>
 </select></label>
-<label for="field5"><span>Seeking age</span><input type="text" class="mine" name="field5" value=""  maxlength="2" size="6" placeholder="min"/>to<input type="text" class="mine" name="field1" value="" maxlength="2" size="6" placeholder="max"/></label>
-<label><span> </span><input type="submit" value="Submit" /></label>
+<label for="field5"><span>Seeking age:</span><input type="text" class="mine" name="field5" value=""  maxlength="2" size="6" placeholder="min"/>to<input type="text" class="mine" name="field1" value="" maxlength="2" size="6" placeholder="max"/></label>
+<label><span> </span><input type="submit" id="button" value="Sign Up" /></label>
 </form>
 </div>
+<div id="val">
+<a href="http://validator.w3.org/check/referer">
+<img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="html validator"/>
+</a>
+ <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png"
+                        alt="css validator"/>
+                        </a>
+                        </div>
 </body>
 </html>

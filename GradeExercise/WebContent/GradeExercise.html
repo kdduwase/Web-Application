@@ -2,21 +2,23 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Grade Exercise</title>
+  <link href="GradeExercise.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+<h2 id="header">Retrieve your grade</h2>
 <div class="form-style-2">
-<div class="form-style-2-heading">Provide your information</div>
-<form action="" method="post">
-<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-<label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
-<label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
-<label for="field4"><span>Regarding</span><select name="field4" class="select-field">
-<option value="General Question">General</option>
-<option value="Advertise">Advertisement</option>
-<option value="Partnership">Partnership</option>
+<form action="http://mumstudents.org/paramms.php" method="post">
+<label for="field1"><span>Name:</span><input type="text" class="input-field" name="field1" value="" /></label>
+<label for="field2"><span>Student Id:</span><input type="text" class="input-field" name="field2" value="" /></label>
+<label for="field4"><span>Chose an Assignment</span><select name="field4" class="select-field">
+<option value="General Question">Assignment 1</option>
+<option value="Advertise">Assignment 2</option>
+<option value="Partnership">Assignment 3</option>
 </select></label>
-<label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+<label for="radio"><span>Entry:</span> <input type="radio" id="nov" name="nov-entry" value="nov-entry">November 2020
+   <input type="radio" id="feb" name="entry" value="nov-entry">February Entry</label>
+<label for="field5"><span>Message:</span><input type="checkbox" id="confirm" name="vehicle1" value="confirm">Are you sure you wanna look your grade?</label>
 
 <label><span> </span><input type="submit" value="Submit" /></label>
 </form>
