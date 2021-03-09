@@ -10,9 +10,9 @@
 /*function blinky(){
 	alert("hi");
 }*/
-let check=document.getElementByName("check");
+
 function blinky1(){
-	
+	var check=document.getElementByName("check");
 	if(check.checked==1){
 		document.getElementById("sent").style.fontWeight="bold";
 		document.getElementById("sent").style.color="green";
