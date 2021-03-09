@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+#sent{
+	text-align:right;
+	width:100%;
+	border-box:box-sizing;
+}
+#field{
+	width:50%;
+}
+#field2{
+	width:50%;
+}
