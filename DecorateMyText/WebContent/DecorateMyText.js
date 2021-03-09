@@ -13,8 +13,7 @@
 
 function blinky1(){
 	
-	var check=document.getElementById("CheckBox");
-	if(check.checked==1){
+	if(document.getElementById("CheckBox").checked==1){
 		document.getElementById("sent").style.fontWeight="bold";
 		document.getElementById("sent").style.color="green";
 		document.getElementById("sent").style.textDecoration="underline";
