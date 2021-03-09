@@ -10,7 +10,7 @@
 /*function blinky(){
 	alert("hi");
 }*/
-
+let check=document.getElementByName("check");
 function blinky1(){
 	
 	if(check.checked==1){
