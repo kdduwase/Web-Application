@@ -12,7 +12,8 @@
 }*/
 
 function blinky1(){
-	var check=document.getElementByName("check");
+	
+	var check=document.getElementById("CheckBox");
 	if(check.checked==1){
 		document.getElementById("sent").style.fontWeight="bold";
 		document.getElementById("sent").style.color="green";
