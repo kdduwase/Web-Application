@@ -7,7 +7,7 @@ window.onload = function() {
 
     document.getElementById("animation").onchange = function() {
         var selectedAnimation = document.getElementById("animation").value;
-        var animationStr = ANIMATIONS[selectedAnimation];
+        var animationStr = animations[selectedAnimation];
         document.getElementById("text-area").value = animationStr;
     };
 
